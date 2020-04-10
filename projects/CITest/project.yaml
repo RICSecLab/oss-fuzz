@@ -1,0 +1,16 @@
+homepage: "https://github.com/RICSecLab/CITest"
+language: c++
+primary_contact: "info@ricsec.co.jp"
+fuzzing_engines:
+  - libfuzzer
+  - afl
+  - honggfuzz
+  - dataflow
+sanitizers:
+  - address
+  - dataflow
+  - memory
+  - undefined
+architectures:
+  - x86_64
+  - i386
